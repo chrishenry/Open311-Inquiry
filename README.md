@@ -1,6 +1,6 @@
 <h1>Open311-Inquiry</h1>
 <p>
-Open311 is a form of technology that provides open channels of communication for issues that concern public space and public services. Primarily, Open311 refers to a standardized protocol for location-based collaborative issue-tracking.   Open311 provides access to Services, Facilities, and Frequently Asked Questions (FAQs).  Open311 also provides the 311 Today feed which provides daily status messages regarding Public Schools, Alternate Side Parking, and Garbage/Recycling pick up. Important City announcements based on current events may also be provided through this feed.  
+Open311 is a form of technology that provides open channels of communication for issues that concern public space and public services. Primarily, Open311 refers to a standardized protocol for location-based collaborative issue-tracking.   Open311 provides access to Services, Facilities, and Frequently Asked Questions (FAQs).  Open311 also provides the 311 Today feed which provides daily status messages regarding Public Schools, Alternate Side Parking, and Garbage/Recycling pick up. Important City announcements based on current events may also be provided through this feed.
 </p>
 
 <h1>Import The Library</h1>
@@ -13,7 +13,7 @@ If the library fails to import, make sure python is set to search the directory 
 
 <h1> Creating ServiceList Object </h1>
 <b>Creating a open311 ServiceList object and setting the API Key/ID:</b><br />
-<code>ServListObj = open311SNSL.servicelist('API ID' , 'API Key') </code>
+<code>ServListObj = open311SNSL.serviceList('API ID' , 'API Key') </code>
 
 
 <b>Changing the API Key or ID for a servicelist object that was already created: </b><br />
@@ -47,7 +47,7 @@ print serviceListOutput.text
 
 
 <h1><b> Creating an open311 Service Object: </b></h1><br />
-<b>Creating a open311 Servic object and setting the API Key/ID and Service ID: </b><br />
+<b>Creating a open311 Service object and setting the API Key/ID and Service ID: </b><br />
 <code>
 serviceObject = open311SNSL.service('API ID' , 'API Key' , 'service_id')
 </code><br />
